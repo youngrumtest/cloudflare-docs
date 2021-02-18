@@ -222,10 +222,6 @@ The available fields are:
 
 - EdgeEndTimestamp
 
-- EdgePathingOp
-
-- EdgePathingSrc
-
 - EdgePathi
 
 - ngStatus

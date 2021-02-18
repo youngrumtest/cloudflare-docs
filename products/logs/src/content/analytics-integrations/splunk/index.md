@@ -275,12 +275,6 @@ The available fields are:
 
 - EdgeEndTimestamp
 
-- EdgePathingOp
-
-- EdgePathingSrc
-
-- EdgePathingStatus
-
 - EdgeRateLimitAction
 
 - EdgeRateLimitID

@@ -26,9 +26,6 @@
 | EdgeColoCode | IATA airport code of data center that received the request | string |
 | EdgeColoID | Cloudflare edge colo id | int |
 | EdgeEndTimestamp | Timestamp at which the edge finished sending response to the client | int or string |
-| EdgePathingOp | Indicates what type of response was issued for this request (unknown = no specific action) | string |
-| EdgePathingSrc | Details how the request was classified based on security checks (unknown = no specific classification) | string |
-| EdgePathingStatus | Indicates what data was used to determine the handling of this request (unknown = no data) | string |
 | EdgeRateLimitAction | The action taken by the blocking rule; empty if no action taken | string |
 | EdgeRateLimitID | The internal rule ID of the rate-limiting rule that triggered a block (ban) or simulate action. 0 if no action taken. | int |
 | EdgeRequestHost | Host header on the request from the edge to the origin | string |
